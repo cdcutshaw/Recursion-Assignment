@@ -15,6 +15,7 @@ console.log(fibs(10))
 
 
 function fibsRec(n) {
+    console.log("This was printed recursively");
     if (n <= 0) return 'please enter a number greater than 0';
     if(n == 1) return [0];
     if (n == 2) return [0, 1];
@@ -24,8 +25,4 @@ function fibsRec(n) {
     }
     return array;
 }
-console.log(fibsRec(0))
-console.log(fibsRec(1))
-console.log(fibsRec(3))
-console.log(fibsRec(6))
-console.log(fibsRec(10))
+console.log(fibsRec(8))
